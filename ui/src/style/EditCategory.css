@@ -1,0 +1,42 @@
+.edit-category {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.edit-category h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.edit-category form {
+    background: #16a085;
+    padding: 24px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.edit-category form input {
+    padding: 5px;
+    border: none;
+    color: black;
+}
+
+.edit-category form button {
+    padding: 0;
+    background: #0B132B;
+    color: #fff;
+    border: none;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.edit-category form button:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}

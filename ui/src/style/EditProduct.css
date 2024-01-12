@@ -1,0 +1,58 @@
+.edit-product, .edit-product form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.edit-product {
+    row-gap: 30px;
+    width: 80vw;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.edit-product h2{
+    font-size: 28px;
+    margin-top: 20px;
+}
+
+.edit-product form {
+    width: 400px;
+    margin: auto;
+    row-gap: 14px;
+    background: #16a085;
+    padding: 20px;
+    border-radius: 10px;;
+}
+
+.edit-product input, option {
+    color: black;
+    height: 30px;
+    width: 300px;
+}
+
+.edit-product select {
+    width: 300px;
+}
+
+.edit-product button {
+    padding: 0;
+    width: 200px;
+    color: #fff;
+    border: none;
+    height: 50px;
+}
+
+.edit-product button:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.edit-product .submit-button, .add-spec-button {
+    background: #007bff;
+}
+
+.edit-product .delete-button {
+    background: #982649;
+}

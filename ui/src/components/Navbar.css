@@ -1,0 +1,59 @@
+/* Navbar.css */
+.navbar {
+  background-color: #16a085;
+  /*padding: 20px 20px;*/
+  color: white;
+  display: flex;
+  justify-content: space-between;
+
+  top: 0;
+  width: 100%;
+  position: fixed;
+
+  border-bottom: 1px solid #0B132B;
+}
+
+.navbar h1 {
+  padding: 20px 20px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+}
+
+.navbar li {
+  padding: 20px 0px;
+  font-size: 22px;
+}
+
+
+.navbar a {
+  text-decoration: none;
+  padding: 0px 20px;
+  color: white;
+  transition: 0.1s linear;
+}
+
+.navbar a:hover {
+  /*border-bottom: 2px solid white;*/
+  background: #0B132B;
+}
+
+
+@media only screen and (max-width: 1180px) {
+
+  .navbar li,
+  h1 {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+
+  .navbar li,
+  h1 {
+    font-size: 12px;
+  }
+
+}

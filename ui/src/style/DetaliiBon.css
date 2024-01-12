@@ -1,0 +1,37 @@
+.detalii-bon {
+    width: 600px;
+    margin: auto;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.detalii-bon h2 {
+    text-align: center;
+    font-size: 28px;
+}
+
+.detalii-bon .produs {
+    display: flex;
+    flex-direction: co;
+    column-gap: 20px;
+    background: #16a085;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.detalii-bon img {
+    width: 100px;
+    height: 100px;
+}
+
+.detalii-bon span {
+    color: #16a085;
+    font-weight: bold;
+}
+
+.detalii-bon .total-price {
+    text-align: center;
+    font-size: 20px;
+}

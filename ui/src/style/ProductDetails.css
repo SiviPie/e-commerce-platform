@@ -1,0 +1,121 @@
+.product-details {
+    color:white;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: auto;
+    margin-top: 100px;
+    row-gap: 30px;
+}
+
+.product-details h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.product-details .product-complete {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: auto;
+    background-color: #16a085;
+    padding: 20px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.product-details .product-complete img{
+    width: 200px;
+}
+
+.product-details button {
+    width: 200px;
+    padding: 0;
+    height: 50px;
+    background: #16a085;
+    border: none;
+    color: white;
+    margin: auto;
+}
+
+.product-details button:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.product-details .specificatie {
+    background-color: #16a085;
+    border-radius: 5px;
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+
+.product-specificatii h2 {
+    text-align: center;
+    font-size: 28px;
+}
+
+.product-specificatii {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: auto;
+    row-gap: 20px;
+}
+
+.product-details .product-reviews h2 {
+    text-align: center;
+    font-size: 28px;
+}
+
+.product-details .edit-button {
+    background: #007bff;
+}
+
+.add-cart-button {
+    background: #007bff;
+}
+
+.product-reviews {
+    margin-bottom: 50px;
+}
+
+.product-reviews .review-button {
+    margin-top: 30px;
+    background: #007bff;
+}
+
+.product-reviews form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    color: black;
+    border: 2px solid  #007bff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.product-reviews form input {
+    width: 50px;
+    height: 30px;
+}
+
+.product-reviews input, textarea {
+    color: black;
+    padding: 10px;
+}
+
+.product-reviews {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.product-details .cart-widget {
+    position: fixed;
+    top: 85vh;
+    right: 100px;
+}

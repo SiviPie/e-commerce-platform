@@ -1,0 +1,38 @@
+.post-compact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin: auto;
+    border-radius: 200px;
+    cursor: pointer;
+}
+
+.post-compact:hover {
+    opacity: 0.7;
+}
+
+.post-compact > div {
+    background: #16a085;
+    width: 100%;
+}
+
+.post-compact > .author {
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.post-compact > .title {
+    padding: 0px 10px;
+    font-size: 22px;
+    background:  rgba(0, 117, 93);
+    border: 2px solid #16a085;
+}
+
+.post-compact > .content {
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 0px 0px 10px 10px;
+}

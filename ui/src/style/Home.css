@@ -1,0 +1,13 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  height: 90vh; /* Set the height of the container to the full viewport height */
+  text-align: center; /* Optional: Center text within the container */
+  font-size: 28px;
+}
+
+.home span {
+  color: #16a085;
+}

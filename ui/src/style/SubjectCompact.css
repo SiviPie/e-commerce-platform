@@ -1,0 +1,25 @@
+.subject-compact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    width: 400px;
+    margin: auto;
+    border-radius: 200px;
+    cursor: pointer;
+}
+
+.subject-compact:hover {
+    opacity: 0.7;
+}
+
+.subject-compact>div {
+    width: 100%;
+    text-align: center;
+    border: 1px solid #282c3470;
+    background: #16a085;
+    color: white;
+    padding:30px 0px;
+    font-size: 24px;
+    border-radius: 10px;
+}

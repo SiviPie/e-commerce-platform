@@ -1,0 +1,354 @@
+/*** LOGIN ***/
+
+.signup-link {
+    color: black;
+}
+
+.login-container::selection {
+    background: rgba(26, 188, 156, 0.3);
+}
+
+.login-container {
+    max-width: 440px;
+    padding: 0 20px;
+    margin: 170px auto;
+    margin-top: 250px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.login-container .wrapper {
+    width: 100%;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px 1px rgba(0, 0, 0, 0.1);
+}
+
+.login-container .wrapper .title {
+    height: 90px;
+    background: #16a085;
+    border-radius: 5px 5px 0 0;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-container .wrapper form {
+    padding: 30px 25px 25px 25px;
+}
+
+.login-container .wrapper form .row {
+    height: 45px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.login-container .wrapper form .row input,
+button {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding-left: 60px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    color: black;
+}
+
+.login-container form .row button:focus {
+    border-color: #16a085;
+    box-shadow: inset 0px 0px 2px 2px rgba(26, 188, 156, 0.25);
+}
+
+.login-container form .row input::placeholder {
+    color: #999;
+}
+
+.login-container .wrapper form .row i {
+    position: absolute;
+    width: 47px;
+    height: 100%;
+    color: #fff;
+    font-size: 18px;
+    background: #16a085;
+    border: 1px solid #16a085;
+    border-radius: 5px 0 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-container .wrapper form .pass {
+    margin: -8px 0 20px 0;
+}
+
+.login-container .wrapper form .pass a {
+    color: #16a085;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.login-container .wrapper form .pass a:hover {
+    text-decoration: underline;
+}
+
+.login-container .wrapper form .button button {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 0px;
+    background: #16a085;
+    border: 1px solid #16a085;
+    cursor: pointer;
+}
+
+.login-container form .button button:hover {
+    background: #12876f;
+}
+
+.login-container .wrapper form .signup-link {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+.login-container .wrapper form .signup-link a {
+    color: #16a085;
+    text-decoration: none;
+}
+
+.login-container form .signup-link a:hover {
+    text-decoration: underline;
+}
+
+/*** REGISTER ***/
+
+.register-container::selection {
+    background: rgba(26, 188, 156, 0.3);
+}
+
+.register-container {
+    max-width: 440px;
+    padding: 0 20px;
+    margin: 120px auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.register-container .wrapper {
+    width: 100%;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px 1px rgba(0, 0, 0, 0.1);
+}
+
+.register-container .wrapper .title {
+    height: 90px;
+    background: #16a085;
+    border-radius: 5px 5px 0 0;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-container .wrapper form {
+    padding: 30px 25px 25px 25px;
+}
+
+.register-container .wrapper form .row {
+    height: 45px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.register-container .wrapper form .row input,
+button {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding-left: 60px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    color: black;
+}
+
+.register-container form .row button:focus {
+    border-color: #16a085;
+    box-shadow: inset 0px 0px 2px 2px rgba(26, 188, 156, 0.25);
+}
+
+.register-container form .row input::placeholder {
+    color: #999;
+}
+
+.register-container .wrapper form .row i {
+    position: absolute;
+    width: 47px;
+    height: 100%;
+    color: #fff;
+    font-size: 18px;
+    background: #16a085;
+    border: 1px solid #16a085;
+    border-radius: 5px 0 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-container .wrapper form .pass {
+    margin: -8px 0 20px 0;
+}
+
+.register-container .wrapper form .pass a {
+    color: #16a085;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.register-container .wrapper form .pass a:hover {
+    text-decoration: underline;
+}
+
+.register-container .wrapper form .button button {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 0px;
+    background: #16a085;
+    border: 1px solid #16a085;
+    cursor: pointer;
+}
+
+.register-container form .button button:hover {
+    background: #12876f;
+}
+
+.register-container .wrapper form .signup-link {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+.register-container .wrapper form .signup-link a {
+    color: #16a085;
+    text-decoration: none;
+}
+
+.register-container form .signup-link a:hover {
+    text-decoration: underline;
+}
+
+/*** LOGOUT ***/
+.logout-container {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: auto;    
+    margin-top: 200px;
+    align-items: center;
+
+    padding-bottom: 20px;
+
+
+    background-color: #fff;
+}
+
+.logout-container h2 {
+    color: white;
+    background: #16a085;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.logout-container p {
+    font-size: 18px;
+    margin: 20px;
+    color: black;
+}
+
+
+.logout-container button {
+    width: 80%;
+    padding: 10px;
+    background: #16a085;
+    color: white;
+
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.logout-container button:hover {
+    cursor: pointer;
+    background: #12876f;
+}
+
+/*** ACCOUNT ***/
+
+.account {
+    margin-top: 130px;
+    font-size: 24px;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+}
+
+.account h2 {
+    text-align: center;
+}
+
+.account .account-info, .bonuri {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 35%;
+    align-items: center;
+
+    background-color: #16a085;
+    padding: 40px;
+    border-radius: 10px;
+    transition: 0.1s linear;
+}
+
+.account .account-info {
+    background: #0B132B;
+    border: 2px solid #16a085;
+}
+
+.account .account-info span {
+    color: #16a085;
+    font-weight: bold;
+}
+
+.account .account-info .data {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.account .bonuri:hover {
+    opacity: 0.7;
+}
+
+.account img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 4px solid #16a085;
+}

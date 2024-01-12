@@ -1,0 +1,42 @@
+.add-category {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: auto;
+    margin-top: 100px;
+    row-gap: 20px;
+}
+
+.add-category form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    background: #16a085;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.add-category input {
+    color: black;
+    padding: 5px;
+    border: none;
+}
+
+.add-category textarea {
+    border-radius: 0px;
+}
+
+.add-category button {
+    background: #007bff;
+    width: 200px;
+    padding: 0;
+    height: 50px;
+    border: none;
+    color: white;
+    margin: auto;
+}
+
+.add-category button:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
